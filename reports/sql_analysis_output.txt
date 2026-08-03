@@ -1,0 +1,139 @@
+total_journeys  conversions  conversion_rate_pct  total_revenue  average_touchpoints
+--------------  -----------  -------------------  -------------  -------------------
+          5000         1223                24.46      169570.39                 3.53
+journey_status  journeys  average_touchpoints  average_unique_channels  average_duration_hours  average_revenue
+--------------  --------  -------------------  -----------------------  ----------------------  ---------------
+Converted           1223                 3.88                     3.29                   142.3           138.65
+Not Converted       3777                 3.41                     2.94                  118.82              0.0
+    model       top_channel  attributed_conversions  attributed_revenue  revenue_share_pct
+--------------  -----------  ----------------------  ------------------  -----------------
+First Touch     Paid Search                   224.0            31603.91              18.64
+Last Touch      Email                         215.0            29902.12              17.63
+Linear          Paid Search                  209.73            28415.89              16.76
+Position Based  Paid Search                  212.52             28877.8              17.03
+Time Decay      Paid Search                   207.4            27935.41              16.47
+    model          channel      channel_rank  attributed_conversions  attributed_revenue  conversion_share_pct  revenue_share_pct
+--------------  --------------  ------------  ----------------------  ------------------  --------------------  -----------------
+First Touch     Paid Search                1                   224.0            31603.91                 18.32              18.64
+First Touch     Paid Social                2                   178.0            25253.97                 14.55              14.89
+First Touch     Organic Search             3                   185.0            24863.96                 15.13              14.66
+First Touch     Email                      4                   174.0            24330.47                 14.23              14.35
+First Touch     Direct                     5                   162.0            23095.88                 13.25              13.62
+First Touch     Organic Social             6                   108.0            15599.14                  8.83                9.2
+First Touch     Referral                   7                   105.0            13833.02                  8.59               8.16
+First Touch     Display                    8                    87.0            10990.04                  7.11               6.48
+Last Touch      Email                      1                   215.0            29902.12                 17.58              17.63
+Last Touch      Paid Search                2                   207.0            27403.32                 16.93              16.16
+Last Touch      Paid Social                3                   164.0            22642.17                 13.41              13.35
+Last Touch      Organic Search             4                   159.0            22635.82                  13.0              13.35
+Last Touch      Direct                     5                   160.0            21915.12                 13.08              12.92
+Last Touch      Referral                   6                   116.0            16197.14                  9.48               9.55
+Last Touch      Display                    7                   102.0            14648.57                  8.34               8.64
+Last Touch      Organic Social             8                   100.0            14226.13                  8.18               8.39
+Linear          Paid Search                1                  209.73            28415.89                 17.15              16.76
+Linear          Email                      2                  189.69            26238.18                 15.51              15.47
+Linear          Organic Search             3                  179.23            24545.93                 14.65              14.48
+Linear          Paid Social                4                  169.44            23604.62                 13.85              13.92
+Linear          Direct                     5                   162.7            21952.89                  13.3              12.95
+Linear          Organic Social             6                  109.01            15983.87                  8.91               9.43
+Linear          Referral                   7                  102.72             14512.4                   8.4               8.56
+Linear          Display                    8                  100.49            14316.61                  8.22               8.44
+Position Based  Paid Search                1                  212.52             28877.8                 17.38              17.03
+Position Based  Email                      2                  192.63            26804.94                 15.75              15.81
+Position Based  Paid Social                3                  171.58            24091.14                 14.03              14.21
+Position Based  Organic Search             4                  174.43            24017.73                 14.26              14.16
+Position Based  Direct                     5                  162.53            22313.57                 13.29              13.16
+Position Based  Organic Social             6                  105.68             15265.3                  8.64                9.0
+Position Based  Referral                   7                  107.02            14758.08                  8.75                8.7
+Position Based  Display                    8                   96.61            13441.83                   7.9               7.93
+Time Decay      Paid Search                1                   207.4            27935.41                 16.96              16.47
+Time Decay      Email                      2                  193.07            26583.79                 15.79              15.68
+Time Decay      Organic Search             3                  177.36            24342.78                  14.5              14.36
+Time Decay      Paid Social                4                  168.16            23448.45                 13.75              13.83
+Time Decay      Direct                     5                  164.07            22173.78                 13.42              13.08
+Time Decay      Organic Social             6                  107.86             15814.8                  8.82               9.33
+Time Decay      Referral                   7                  103.78            14694.87                  8.49               8.67
+Time Decay      Display                    8                   101.3            14576.51                  8.28                8.6
+   channel      journeys_touching_channel  converted_journeys  assisted_conversion_rate_pct
+--------------  -------------------------  ------------------  ----------------------------
+Direct                               1811                 528                         29.16
+Email                                2097                 594                         28.33
+Referral                             1326                 364                         27.45
+Organic Social                       1500                 393                          26.2
+Display                              1368                 358                         26.17
+Paid Search                          2512                 652                         25.96
+Paid Social                          2209                 556                         25.17
+Organic Search                       2319                 582                          25.1
+     journey_path        journeys  conversions  conversion_rate_pct  revenue
+-----------------------  --------  -----------  -------------------  -------
+Paid Search                    79           14                17.72  1804.05
+Email                          56           11                19.64  1586.06
+Direct                         55           10                18.18    993.3
+Organic Search > Email         20            8                 40.0  1283.49
+Paid Search > Direct           31            8                25.81  1262.02
+Organic Search                 69            8                11.59   798.79
+Paid Social                    67            7                10.45  1057.38
+Direct > Email                 24            7                29.17   989.14
+Paid Social > Email            23            7                30.43   888.94
+Paid Search > Email            35            7                 20.0   686.41
+Email > Paid Search            23            6                26.09   753.11
+Referral > Email               15            6                 40.0   750.96
+Paid Social > Direct           15            6                 40.0    583.0
+Direct > Organic Social        16            5                31.25   857.43
+Direct > Organic Search        20            5                 25.0   843.58
+   channel      first_touch_journeys  first_touch_conversions  first_touch_conversion_rate_pct
+--------------  --------------------  -----------------------  -------------------------------
+Direct                           579                      162                            27.98
+Referral                         402                      105                            26.12
+Email                            705                      174                            24.68
+Paid Social                      724                      178                            24.59
+Paid Search                      929                      224                            24.11
+Organic Social                   460                      108                            23.48
+Organic Search                   808                      185                             22.9
+Display                          393                       87                            22.14
+   channel      last_touch_journeys  last_touch_conversions  last_touch_conversion_rate_pct
+--------------  -------------------  ----------------------  ------------------------------
+Email                           716                     215                           30.03
+Direct                          557                     160                           28.73
+Referral                        414                     116                           28.02
+Paid Search                     840                     207                           24.64
+Display                         435                     102                           23.45
+Organic Social                  468                     100                           21.37
+Paid Social                     784                     164                           20.92
+Organic Search                  786                     159                           20.23
+device   journey_device_exposures  converted_exposures  conversion_rate_pct
+-------  ------------------------  -------------------  -------------------
+Tablet                        947                  266                28.09
+Desktop                      3726                  968                25.98
+Mobile                       4513                 1132                25.08
+   channel           campaign        average_attributed_conversions  average_attributed_revenue
+--------------  -------------------  ------------------------------  --------------------------
+Direct          Direct Visit                                 162.26                    22290.25
+Paid Search     Competitor Search                             73.29                    10429.54
+Paid Social     LinkedIn Ads                                  64.78                      9592.2
+Paid Search     Brand Search                                  73.84                     9447.34
+Email           Welcome Series                                 62.3                     9061.29
+Paid Search     Product Search                                 65.0                     8970.39
+Email           Promotional Email                             64.19                     8866.92
+Email           Newsletter                                    66.39                     8843.68
+Organic Search  Educational Content                           59.02                     8507.19
+Organic Search  Product Pages                                 59.87                     8111.97
+Paid Social     Facebook Ads                                  56.78                     7668.29
+Organic Search  SEO Blog                                      56.12                     7462.09
+Paid Social     Instagram Ads                                 48.67                     6547.58
+Organic Social  LinkedIn Organic                              39.42                      5920.3
+Organic Social  TikTok Organic                                37.37                     5267.04
+Referral        Affiliate                                     37.56                     5024.23
+Referral        Partner Website                               32.93                     4920.32
+Referral        Customer Referral                             36.41                     4854.56
+Display         Prospecting                                   33.24                     4788.58
+Display         Banner Campaign                               33.91                     4436.46
+conversion_month  conversions  revenue   average_order_value
+----------------  -----------  --------  -------------------
+2025-01                   152  19287.88               126.89
+2025-02                   211  31071.87               147.26
+2025-03                   208  28027.43               134.75
+2025-04                   204  28015.55               137.33
+2025-05                   217  29683.26               136.79
+2025-06                   208  29575.08               142.19
+2025-07                    23   3909.32               169.97

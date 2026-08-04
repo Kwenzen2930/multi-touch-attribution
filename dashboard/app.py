@@ -10,7 +10,7 @@ import streamlit as st
 
 
 PROJECT_ROOT: Final = Path(__file__).resolve().parents[1]
-PROCESSED_DIRECTORY: Final = PROJECT_ROOT / "data" / "processed"
+PROCESSED_DIRECTORY: Final = PROJECT_ROOT / "dashboard" / "data"
 
 JOURNEY_SUMMARY_PATH: Final = (
     PROCESSED_DIRECTORY / "journey_summary.csv"
